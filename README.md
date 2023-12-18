@@ -18,7 +18,7 @@ Libraries used:<ul>
  <li>numpy - Used for computing norm</li> 
  <li>pandas - Used to work with multivariate data as array</li>
  <li>scikit-learn - Used to fit the regression model</li>
- <li>proxop - Used to find proximal operator</li>
+ 
  </ul>
 
 
