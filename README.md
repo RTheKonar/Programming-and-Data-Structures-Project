@@ -27,9 +27,9 @@ Goal: Given a dataset D<sub>n</sub>={(x<sub>1</sub>,y<sub>1</sub>),....,(x<sub>n
 <h5>Usage</h5><br>In "main_script.py" do:<ul>
     <li>Replace 'your_file.xlsx' with desired file path.</li>
 <li>Replace 'r' with preferred attack budget.</li>
-<li>For l<sub>2
+<li>For l<sub>2</sub>
     norm attacks, assign desired number of iterations to 'iterations'.</li>
-<li>For l<sub></li>
+<li>For l<sub>∞</sub> attacks, assign desired grid size to 'grid_size'.</li>
 </ul>
 
 
