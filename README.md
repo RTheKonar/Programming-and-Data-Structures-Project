@@ -13,13 +13,24 @@ Goal: Given a dataset D<sub>n</sub>={(x<sub>1</sub>,y<sub>1</sub>),....,(x<sub>n
 
 
 
-Libraries used:<ul>
+<h5>Libraries used:</h5><ul>
 
  <li>numpy - Used for computing norm</li> 
  <li>pandas - Used to work with multivariate data as array</li>
  <li>scikit-learn - Used to fit the regression model</li>
  
  </ul>
+
+
+
+<br>
+<h5>Usage</h5><br>In "main_script.py" do:<ul>
+    <li>Replace 'your_file.xlsx' with desired file path.</li>
+<li>Replace 'r' with preferred attack budget.</li>
+<li>For l<sub>2<\sub> norm attacks, assign desired number of iterations to 'iterations'.</li>
+<li>For l<sub></li>
+</ul>
+
 
 
 
