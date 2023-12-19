@@ -6,7 +6,7 @@ Implementation of Robust Linear Regression:Gradient Descent, Early Stopping Stra
 
 Goal: Given a dataset D<sub>n</sub>={(x<sub>1</sub>,y<sub>1</sub>),....,(x<sub>n</sub>,y<sub>n</sub>)} of size n, given by <br>
 <center>y<sub>i</sub> = w<sub>0</sub>x<sub>i</sub><sup>T</sup>+ε<sub>i</sub> for all i=1,2,...,n </center>
-<br> where x<sub>i</sub> i.i.d ~ N(0,Σ), ε<sub>i</sub> i.i.d ~ N(0,σ<sub>ε</sub><sup>2</sup>), our task is to predict the generative model w<sub>0</sub> along with the error terms.
+<br> where x<sub>i</sub> i.i.d ~ N(0,Σ), ε<sub>i</sub> i.i.d ~ N(0,σ<sub>ε</sub><sup>2</sup>), our task is to predict the generative model w<sub>0</sub>.
 
 
 
@@ -27,9 +27,7 @@ Goal: Given a dataset D<sub>n</sub>={(x<sub>1</sub>,y<sub>1</sub>),....,(x<sub>n
 <h5>Usage</h5><br>In "main_script.py" do:<ul>
     <li>Replace 'your_file.xlsx' with desired file path.</li>
 <li>Replace 'r' with preferred attack budget.</li>
-<li>For l<sub>2</sub>
-    norm attacks, assign desired number of iterations to 'iterations'.</li>
-<li>For l<sub>∞</sub> attacks, assign desired grid size to 'grid_size'.</li>
+
 </ul>
 
 
